@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:500,700,800&display=swap" rel="stylesheet">
+    <title data-i18n="page_title">Home</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <button class="icon-menu">
+                    <span></span>
+                </button>
+                <div class="header__menu menu">
+                    <div class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a data-i18n="menu_about" data-goto=".about" href="#"
+                                    class="menu__link">Про мене</a></li>
+                            <li class="menu__item"><a data-i18n="menu_skill" data-goto=".skill" href="#"
+                                    class="menu__link">Навички</a></li>
+                            <li class="menu__item"><a data-i18n="menu_quality" data-goto=".skill" href="#"
+                                    class="menu__link">Особисті якості</a></li>
+                            <li class="menu__item"><a data-i18n="menu_project" data-goto=".project" href="#"
+                                    class="menu__link">Мої проекти</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__lang language-switcher">
+                    <button data-lang="uk" aria-current="true">UA</button>
+                    <button data-lang="en">EN</button>
+                </div>
+                <div class="header__actions actions-header">
+                    <a class="actions-header__item" target="_blank"
+                        href="https://www.instagram.com/kirkolchev?igsh=MmR4Zjh3cTVsbzV1&utm_source=qr">
+                        <img class="actions-header__image" src="/assets/icons/insta.svg" alt="Image">
+                    </a>
+                    <a class="actions-header__item" target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100023641599042">
+                        <img class="actions-header__image" src="/assets/icons/fb.svg" alt="Image">
+                    </a>
+                    <a class="actions-header__item" target="_blank"
+                        href="https://www.linkedin.com/in/kyrylo-kolchev-12176a27a/">
+                        <img class="actions-header__image" src="/assets/icons/linkedin.svg" alt="Image">
+                    </a>
+                    <a class="actions-header__item" target="_blank" href="https://github.com/Kirkolchev">
+                        <img class="actions-header__image" src="/assets/icons/githab.svg" alt="Image">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__hero hero">
+                <div class="hero__container">
+                    <h1 class="hero__title title" data-i18n="hero_title">
+                        Кирило Колчев <br> <span>Front-End Developer</span>
+                    </h1>
+                    <div class="hero__body">
+                        <div class="hero__user">
+                            <div class="decor-hero decor-hero--top">
+                                <img class="decor-hero__image" src="/assets/icons/decor-1.svg" alt="Image">
+                                <img class="decor-hero__image" src="/assets/icons/decor-2.svg" alt="Image">
+                                <img class="decor-hero__image" src="/assets/icons/decor-3.svg" alt="Image">
+                                <img class="decor-hero__image" src="/assets/icons/decor-4.svg" alt="Image">
+                            </div>
+                            <img class="hero__image" src="/assets/img/me.JPG" alt="User">
+                            <div class="decor-hero decor-hero--bottom">
+                                <img class="decor-hero__image" src="/assets/icons/decor-5.svg" alt="Image">
+                                <img class="decor-hero__image" src="/assets/icons/decor-6.svg" alt="Image">
+                                <img class="decor-hero__image" src="/assets/icons/decor-7.svg" alt="Image">
+                                <img class="decor-hero__image" src="/assets/icons/decor-8.svg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="hero__about about">
+                            <h2 class="about__title title" data-i18n="about_title">Про мене</h2>
+                            <div class="about__text">
+                                <p data-i18n="about_1">
+                                    Я — Front-End розробник, який захоплюється створенням сучасних, адаптивних і зручних
+                                    для користувачів вебінтерфейсів. Мій шлях у веброзробці розпочався з базового
+                                    розуміння HTML і CSS, але з часом я глибше занурився у світ JavaScript, React та
+                                    інших сучасних технологій. Для мене важливо не просто написати код, а створити
+                                    візуальний і функціональний досвід, який залишає приємне враження у користувача.
+                                </p>
+                                <p data-i18n="about_2">
+                                    Я активно використовую HTML5, CSS3, Sass, JavaScript (ES6+) та фреймворки, такі як
+                                    React, щоб розробляти інтерфейси, які відповідають стандартам доступності й
+                                    виглядають відмінно на будь-якому пристрої. Я розумію принципи адаптивної верстки,
+                                    BEM-методологію, Git для контролю версій та інтегрую API для динамічного наповнення
+                                    контенту.
+                                </p>
+                                <p data-i18n="about_3">
+                                    Крім того, я постійно вдосконалюю свої навички, слідкую за трендами в UI/UX та
+                                    вивчаю нові інструменти, наприклад, TypeScript, Next.js або Tailwind CSS. Моєю метою
+                                    є не просто технічна реалізація, а створення цифрового продукту, який буде корисним,
+                                    естетичним і надійним.
+                                </p>
+                                <p data-i18n="about_4">
+                                    Я відкритий до нових проєктів, викликів і команд, де можу застосувати свої знання та
+                                    внести цінність у спільну справу.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__skill skill">
+                <div class="skill__container">
+                    <article class="skill__items">
+                        <h3 class="skill__title title" data-i18n="skill_title">Навички</h3>
+                        <ul class="skill__list">
+                            <li class="skill__item" data-i18n="skill_1">HTML, CSS, JS</li>
+                            <li class="skill__item" data-i18n="skill_2">Препроцесор ( SASS / SCSS)</li>
+                            <li class="skill__item" data-i18n="skill_3">Адаптивна верстка (чутливий дизайн)</li>
+                            <li class="skill__item" data-i18n="skill_4">Flexbox, Grid</li>
+                            <li class="skill__item" data-i18n="skill_5">Валідна верстка за стандартом W3C</li>
+                            <li class="skill__item" data-i18n="skill_6">Figma (дизайн-макети)</li>
+                            <li class="skill__item" data-i18n="skill_7">Методологія БЕМ</li>
+                            <li class="skill__item" data-i18n="skill_8">Інструменти розробки: Git, Webpack, npm,</li>
+                        </ul>
+                    </article>
+                    <article class="skill__items">
+                        <h3 class="skill__title title" data-i18n="quality_title">Особисті якості</h3>
+                        <ul class="skill__list">
+                            <li class="skill__item" data-i18n="quality_1">Стресостійкість та адаптивність</li>
+                            <li class="skill__item" data-i18n="quality_2">Здатність знаходити компромісні рішення у
+                                команді</li>
+                            <li class="skill__item" data-i18n="quality_3">Аналіз та виявлення потреб клієнтів, активне
+                                слухання</li>
+                            <li class="skill__item" data-i18n="quality_4">Критичне мислення та креативність</li>
+                            <li class="skill__item" data-i18n="quality_5">Ефективна командна робота</li>
+                            <li class="skill__item" data-i18n="quality_6">Постійне вдосконалення та навчання новим
+                                технологіям(дизайн-макети)</li>
+                            <li class="skill__item" data-i18n="quality_7">Гнучкість і вміння адаптуватися до нових задач
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section class="page__project project">
+                <div class="project__container">
+                    <h2 class="project__title title" data-i18n="project_title">Мої проекти</h2>
+                    <div class="project__body">
+                        <a class="project__link" target="_blank" href="https://kirkolchev.github.io/Portfolio/travel/">
+                            <img class="project__image" src="/assets/img/project/project-1.png" alt="Image">
+                        </a>
+                        <a class="project__link" target="_blank" href="https://kirkolchev.github.io/Portfolio/peti-s/">
+                            <img class="project__image" src="/assets/img/project/project-2.png" alt="Image">
+                        </a>
+                        <a class="project__link" target="_blank" href="https://kirkolchev.github.io/Portfolio/jawerly/">
+                            <img class="project__image" src="/assets/img/project/project-3.png" alt="Image">
+                        </a>
+                        <a class="project__link" target="_blank"
+                            href="https://kirkolchev.github.io/Portfolio/%D1%81onsulting/">
+                            <img class="project__image" src="/assets/img/project/project-4.png" alt="Image">
+                        </a>
+                        <a class="project__link" target="_blank" href="https://kirkolchev.github.io/Portfolio/xpense/">
+                            <img class="project__image" src="/assets/img/project/project-5.png" alt="Image">
+                        </a>
+                        <a class="project__link" target="_blank"
+                            href="https://kirkolchev.github.io/Portfolio/home%20decor/">
+                            <img class="project__image" src="/assets/img/project/project-6.png" alt="Image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    <script src="js/i18n.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
