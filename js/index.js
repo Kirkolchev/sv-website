@@ -10,7 +10,6 @@ document.addEventListener('click', documentAction)
 function documentAction(e) {
     const targetElement = e.target
 
-    // Навігація по сторінці
     if (targetElement.closest("[class*='menu__link']")) {
         if (document.documentElement.classList.contains('menu-open')) {
             document.documentElement.classList.remove('menu-open')
@@ -30,7 +29,7 @@ function documentAction(e) {
 function setLanguage(lang) {
     document.documentElement.lang = lang;
     localStorage.setItem('lang', lang);
-    // Переводим title
+    
     const titleEl = document.querySelector('title[data-i18n]');
     if (titleEl && window.translations && window.translations[lang][titleEl.dataset.i18n]) {
         titleEl.textContent = window.translations[lang][titleEl.dataset.i18n];
