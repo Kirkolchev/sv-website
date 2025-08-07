@@ -2,6 +2,7 @@ window.translations = {
     uk: {
         page_title: "Головна",
         menu_about: "Про мене",
+        menu_video: "Відео",
         menu_skill: "Навички",
         menu_quality: "Особисті якості",
         menu_project: "Мої проекти",
@@ -11,6 +12,7 @@ window.translations = {
         about_2: "Я активно використовую HTML5, CSS3, Sass, JavaScript (ES6+) та фреймворки, такі як React, щоб розробляти інтерфейси, які відповідають стандартам доступності й виглядають відмінно на будь-якому пристрої. Я розумію принципи адаптивної верстки, BEM-методологію, Git для контролю версій та інтегрую API для динамічного наповнення контенту.",
         about_3: "Крім того, я постійно вдосконалюю свої навички, слідкую за трендами в UI/UX та вивчаю нові інструменти, наприклад, TypeScript, Next.js або Tailwind CSS. Моєю метою є не просто технічна реалізація, а створення цифрового продукту, який буде корисним, естетичним і надійним.",
         about_4: "Я відкритий до нових проєктів, викликів і команд, де можу застосувати свої знання та внести цінність у спільну справу.",
+        inform_title: "Відео",
         skill_title: "Навички",
         skill_1: "HTML, CSS, JS",
         skill_2: "Препроцесор ( SASS / SCSS)",
@@ -33,6 +35,7 @@ window.translations = {
     en: {
         page_title: "Home",
         menu_about: "About Me",
+        menu_video: "Video",
         menu_skill: "Skills",
         menu_quality: "Personal Qualities",
         menu_project: "My Projects",
@@ -42,6 +45,7 @@ window.translations = {
         about_2: "I actively use HTML5, CSS3, Sass, JavaScript (ES6+), and frameworks like React to develop interfaces that meet accessibility standards and look great on any device. I understand the principles of responsive design, the BEM methodology, use Git for version control, and integrate APIs for dynamic content.",
         about_3: "In addition, I am constantly improving my skills, following UI/UX trends, and learning new tools such as TypeScript, Next.js, or Tailwind CSS. My goal is not just technical implementation, but creating a digital product that is useful, aesthetic, and reliable.",
         about_4: "I am open to new projects, challenges, and teams where I can apply my knowledge and add value to a common cause.",
+        inform_title: "Video",
         skill_title: "Skills",
         skill_1: "HTML, CSS, JS",
         skill_2: "Preprocessor (SASS / SCSS)",
