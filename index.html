@@ -11,6 +11,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- HEADER -->
         <header class="header">
             <div class="header__container">
                 <button class="icon-menu">
@@ -21,6 +22,8 @@
                         <ul class="menu__list">
                             <li class="menu__item"><a data-i18n="menu_about" data-goto=".about" href="#"
                                     class="menu__link">Про Мене</a></li>
+                            <li class="menu__item"><a data-i18n="menu_video" data-goto=".inform" href="#"
+                                    class="menu__link">Відео</a></li>
                             <li class="menu__item"><a data-i18n="menu_skill" data-goto=".skill" href="#"
                                     class="menu__link">Навички</a></li>
                             <li class="menu__item"><a data-i18n="menu_quality" data-goto=".skill" href="#"
@@ -54,6 +57,7 @@
             </div>
         </header>
         <main class="page">
+            <!-- HERO -->
             <section class="page__hero hero">
                 <div class="hero__container">
                     <h1 class="hero__title title" data-i18n="hero_title">
@@ -107,6 +111,23 @@
                     </div>
                 </div>
             </section>
+            <!-- INFORM -->
+            <section class="page__inform inform">
+                <div class="inform__container">
+                    <h2 class="inform__title title" data-i18n="inform_title">Відео</h2>
+                    <div class="inform__body">
+                        <iframe src="https://kirkolchev.github.io/frelans_life/frelans_%20life-16/" frameborder="0"
+                            class="inform__item inform__wbsit">
+                        </iframe>
+                        <iframe class="inform__item inform__video"
+                            src="https://www.youtube.com/embed/dEBVe8Ij7JU?si=rzoXV4TP3Qc_97bY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <!-- SKILL -->
             <div class="page__skill skill">
                 <div class="skill__container">
                     <article class="skill__items">
@@ -140,6 +161,7 @@
                     </article>
                 </div>
             </div>
+            <!-- PROJECT -->
             <section class="page__project project">
                 <div class="project__container">
                     <h2 class="project__title title" data-i18n="project_title">Мої проекти</h2>

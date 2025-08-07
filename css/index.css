@@ -349,6 +349,53 @@ body {
 }
 
 /*  HERO */
+/* INFORM */
+.page__inform {
+  margin-bottom: 100px;
+}
+
+.inform {
+
+}
+
+.inform__container {
+
+}
+.inform__title{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.inform__body{
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 20px;
+}
+
+.inform__item{
+  height:500px;
+  padding:5px;
+  border-radius: 10px;
+outline: 2px dashed #000000;
+}
+
+.inform__wbsit {
+  flex: 0 0 50%;
+  width: 100%;
+}
+
+.inform__video {
+  flex: 0 0 50%;
+width: 100%;
+}
+
+
+/* INFORM END */
+
+
+
 
 
 /* SKILL */
@@ -571,16 +618,27 @@ body {
     margin-bottom: -1px;
   }
 
-  .zone__items {
-    grid-template-columns: repeat(8, 1fr);
-  }
-
-  .item-zone {
-    grid-column: span 4;
-  }
+  
 }
 
 @media(max-width:750px) {
+  .hero__title {
+    font-size: 30px;
+  }
+  .hero__user {
+    flex-basis: 250px;
+  }
+    .inform__body{
+flex-wrap: wrap;
+    }
+    .inform__wbsit{
+    flex: 0 1 100%;
+    height: 300px;
+    }
+    .inform__video{
+    height: 300px;
+  flex-basis: 100%;
+    }
   .project__body {
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   }
