@@ -354,31 +354,27 @@ body {
   margin-bottom: 100px;
 }
 
-.inform {
+.inform {}
 
-}
+.inform__container {}
 
-.inform__container {
-
-}
-.inform__title{
+.inform__title {
   text-align: center;
   font-size: 35px;
   margin-bottom: 40px;
 }
 
-.inform__body{
-      display: flex;
-      gap: 20px;
-      justify-content: space-between;
-      padding: 20px;
+.inform__body {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
 
-.inform__item{
-  height:500px;
-  padding:5px;
+.inform__item {
+  height: 500px;
+  padding: 5px;
   border-radius: 10px;
-outline: 2px dashed #000000;
+  outline: 2px dashed #000000;
 }
 
 .inform__wbsit {
@@ -388,12 +384,11 @@ outline: 2px dashed #000000;
 
 .inform__video {
   flex: 0 0 50%;
-width: 100%;
+  width: 100%;
 }
 
 
 /* INFORM END */
-
 
 
 
